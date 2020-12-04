@@ -45,6 +45,6 @@ git pull --recurse-submodules
 # Install it locally for testing
 pip install -e .
 
-# Release the debian package to the LaunchPad PPA
+# Release the pip package to PyPI
 ./bin/release.sh
 ```
