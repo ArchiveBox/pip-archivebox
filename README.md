@@ -39,7 +39,7 @@ To build this package, make sure you are in the ArchiveBox main repo first.
 cd ArchiveBox/
 git pull --recurse-submodules
 
-# Build the debian package
+# Build the pip package
 ./bin/build_pip.sh
 
 # Install it locally for testing
