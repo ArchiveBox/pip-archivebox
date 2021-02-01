@@ -13,6 +13,7 @@ w3lib==1.22.0
 [dev]
 setuptools
 twine
+wheel
 flake8
 ipdb
 mypy
