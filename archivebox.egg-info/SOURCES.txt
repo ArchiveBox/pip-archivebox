@@ -1,3 +1,4 @@
+LICENSE
 MANIFEST.in
 README.md
 setup.py
@@ -72,6 +73,7 @@ archivebox/core/migrations/0017_auto_20210219_0211.py
 archivebox/core/migrations/0018_auto_20210327_0952.py
 archivebox/core/migrations/0019_auto_20210401_0654.py
 archivebox/core/migrations/0020_auto_20210410_1031.py
+archivebox/core/migrations/0021_auto_20220914_0934.py
 archivebox/core/migrations/__init__.py
 archivebox/core/templatetags/__init__.py
 archivebox/core/templatetags/core_tags.py
@@ -105,6 +107,7 @@ archivebox/parsers/netscape_html.py
 archivebox/parsers/pinboard_rss.py
 archivebox/parsers/pocket_api.py
 archivebox/parsers/pocket_html.py
+archivebox/parsers/readwise_reader_api.py
 archivebox/parsers/shaarli_rss.py
 archivebox/parsers/url_list.py
 archivebox/parsers/wallabag_atom.py
