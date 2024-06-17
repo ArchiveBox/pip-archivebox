@@ -118,7 +118,7 @@ typing-extensions==4.11.0
 tzdata==2024.1; sys_platform == "win32" or platform_system == "Windows"
 tzlocal==5.2
 unearth==0.15.2
-urllib3==2.2.1
+urllib3==2.2.2
 virtualenv==20.26.0
 w3lib==2.1.2
 wcwidth==0.2.13
