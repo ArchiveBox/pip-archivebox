@@ -9,7 +9,7 @@ babel==2.14.0
 blinker==1.7.0
 brotli==1.1.0; implementation_name == "cpython"
 brotlicffi==1.1.0.0; implementation_name != "cpython"
-certifi==2024.2.2
+certifi==2024.7.4
 cffi==1.16.0; implementation_name != "cpython" or platform_python_implementation == "PyPy"
 charset-normalizer==3.3.2
 colorama==0.4.6; sys_platform == "win32"
