@@ -89,7 +89,7 @@ regex==2024.4.16
 requests==2.31.0
 resolvelib==1.0.1
 rich==13.7.1
-setuptools==69.5.1
+setuptools==70.0.0
 sgmllib3k==1.0.0
 shellingham==1.5.4
 six==1.16.0
