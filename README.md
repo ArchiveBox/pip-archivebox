@@ -1,6 +1,6 @@
 > [!TIP]
 > ## ✨ ArchiveBox is available via `pip`
-> (This repo is no longer needed, ArchiveBox is still distributed via pip though)
+> (This repo is no longer needed, ArchiveBox is still distributed via [pip](https://pypi.org/project/archivebox/) though)
 >  
 > ```bash
 > mkdir -p ~/archivebox/data
@@ -14,6 +14,7 @@
 
 ### More info
 
+- Install Instructions: https://github.com/ArchiveBox/ArchiveBox/wiki/Install
 - Source code: https://github.com/ArchiveBox/ArchiveBox
 - PyPI: https://pypi.org/project/archivebox/
 - Docs: https://docs.archivebox.io/
