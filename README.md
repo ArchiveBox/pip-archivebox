@@ -1,50 +1,23 @@
-# pip-archivebox
+> [!TIP]
+> ## ✨ ArchiveBox is available via `pip`
+> (There is no need to download this repo manually)  
+>  
+> ```bash
+> mkdir -p ~/archivebox/data
+> cd ~/archivebox/data     # (for example, can be anywhere)
+>
+> pip install archivebox   # just use pip to get archivebox
+> archivebox install       # then finish installing dependencies
+> ```
+> If you see `permission denied`, some dependencies need sudo to install.  
+> Run `sudo archivebox install`, or install the indicated packages manually.
 
-The official `pip` package for [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox), the self-hosted internet archiving solution.
+### More info
 
-https://pypi.org/project/archivebox/
-
-## Quickstart
-
-**Install it:**
-```bash
-pip install --upgrade archivebox
-```
-
-**Try it out:**
-```bash
-archivebox version
-
-mkdir data && cd data
-archivebox init
-archivebox add 'https://example.com'
-```
----
-
-Tested on macOS 10.15 and Ubuntu 20.04, should work on most systems (including Linux, BSD, macOS, and Windows).
+- Source code: https://github.com/ArchiveBox/ArchiveBox
+- PyPI: https://pypi.org/project/archivebox/
+- Docs: https://docs.archivebox.io/
 
 ---
 
-## Development
-
-The Pip package is built using [`setuptools`](https://setuptools.readthedocs.io/en/latest/) and hosted on PyPI.
-
-https://pypi.org/project/archivebox/
-
-The config file / package definition is here: [`ArchiveBox/setup.py`](https://github.com/ArchiveBox/ArchiveBox/blob/master/setup.py).
-
-To build this package, make sure you are in the ArchiveBox main repo first.
-
-```bash
-cd ArchiveBox/
-git pull --recurse-submodules
-
-# Build the pip package
-./bin/build_pip.sh
-
-# Install it locally for testing
-pip install -e .
-
-# Release the pip package to PyPI
-./bin/release.sh
-```
+*This repo used to be used to build the pip package for ArchiveBox, but now the build process is done directly in the [main ArchiveBox repo](https://github.com/ArchiveBox/ArchiveBox).*
