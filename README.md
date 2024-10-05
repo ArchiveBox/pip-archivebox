@@ -1,6 +1,6 @@
 > [!TIP]
 > ## ✨ ArchiveBox is available via `pip`
-> (There is no need to download this repo manually)  
+> (This repo is no longer needed, ArchiveBox is still distributed via pip though)
 >  
 > ```bash
 > mkdir -p ~/archivebox/data
